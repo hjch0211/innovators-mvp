@@ -7,7 +7,7 @@ export const Main = () => {
   return (
     <>
       <Header>
-        <Header.Item />
+        <Header.Items />
         <div>hoho</div>
         <div>hoho</div>
         <div>hoho</div>
