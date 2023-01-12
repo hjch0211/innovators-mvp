@@ -1,0 +1,9 @@
+{
+  "short_name": "Innovators",
+  "name": "Innovators : 기획 온라인 플랫폼",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
