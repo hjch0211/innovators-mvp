@@ -4,7 +4,7 @@ import { Route, Routes as ReactRoutes } from "react-router-dom";
 /**
  * @description Register all routes
  */
-import Main from "./Main";
+import { Main } from "./Main";
 
 export const AppRoutes = () => {
   return (
