@@ -14,16 +14,22 @@ const typography: TypographyOptions = {
   h2: {
     fontSize: 25,
   },
-  h3: {},
+  h3: {
+    fontSize: 15,
+    letterSpacing: "1px",
+  },
   body1: {
     letterSpacing: "2px",
   },
-  button: {},
+  button: { fontSize: 15, letterSpacing: "1px" },
 };
 
 const palette: PaletteOptions = {
   primary: {
-    main: "#D9D9D9",
+    main: "#000000",
+  },
+  secondary: {
+    main: "#6b6b6b",
   },
 };
 
