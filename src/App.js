@@ -1,5 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import { AppRoutes } from "./pages/AppRoutes";
+import MUIThemeProvider from "./MUIThemeProvider";
 
 /**
  * @description Register all provider
@@ -7,7 +8,9 @@ import { AppRoutes } from "./pages/AppRoutes";
 function App() {
   return (
     <Router>
-      <AppRoutes />
+      <MUIThemeProvider>
+        <AppRoutes />
+      </MUIThemeProvider>
     </Router>
   );
 }
